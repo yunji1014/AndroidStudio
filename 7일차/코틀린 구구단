@@ -5,9 +5,9 @@ fun main() {
             println("$i X $j = ${i*j} \n")
 
     //단 사이에 줄(************) 넣기
-    for(i in 5..6 step 1){
-        for(j in 1..9 step 2)
-            println()
-
+    for(i in 5..8 step 1){
+        for(j in 1..9 step 1)
+            println("$i X $j = ${i*j} \n")
+        println("************")
     }
 }
